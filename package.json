@@ -1,6 +1,6 @@
 {
   "name": "1date-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./lib/index.js",
   "module": "./lib/index.d.js",
   "scripts": {
