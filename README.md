@@ -1,4 +1,4 @@
-# elasticsearch-utils
+# date-utils
 
 ## Find fields with mapping conflicts
 
