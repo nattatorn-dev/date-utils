@@ -7,11 +7,9 @@ dayjs.extend(timezone);
 
 const date = dayjs();
 console.log('-------------Local--------------');
+const tzLocal = dayjs.tz.guess();
 console.log('Timezone \n', dayjs.tz.guess());
-console.log('ISO Date \n', date.local().format());
-const localStart = date.local().startOf('day').format();
-const localEnd = date.local().endOf('day').format();
-console.log('End of day \n', localStart, localEnd);
+console.log('ISO Date \n', dayjs.tz(date, tzLocal).format());
 
 const tz = 'Asia/Bangkok';
 console.log('--------UTC-Asia/Bangkok--------');
